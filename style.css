@@ -1,9 +1,20 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
 .banner {
-    background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg") no-repeat center center;
-    background-size: cover;
+    background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg") no-repeat center;
+    background-size: 100%;
     padding: 10% 0;
     color: #fff;
     text-align: center;
+    margin-top: 60px; 
 }
 
 .lingkaran {
