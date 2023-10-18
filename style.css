@@ -1,55 +1,72 @@
 .banner {
-    background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg") 
-    no-repeat center center;
-background-size: cover;
-padding-top:20%;
-padding-bottom: 20%;
-color:#fff;
+    background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 10% 0;
+    color: #fff;
+    text-align: center;
 }
 
 .lingkaran {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     width: 130px;
-    margin: auto;
-    height: 90px;
-    color: #fff;
+    height: 130px;
     background-color: #dc3545;
+    color: #fff;
+    margin: 0 auto;
 }
 
 .lingkaran i {
-    position: relative;
-    top: 30px;
+    font-size: 24px;
 }
 
 .crop-img {
     object-fit: cover;
+    max-width: 100%;
 }
 
 .tim img {
-    widht: 200px;
+    width: 200px;
     border: 10px solid #cccccc;
 }
 
-a.social {
-    display: inline-block;
-    widht: 30px;;
+.sosial-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.sosial-media a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
     height: 30px;
     color: #fff;
-    border-radius: 50%;
     background-color: #333;
+    border-radius: 50%;
+    margin: 0 5px;
+    text-align: center;
     line-height: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.sosial-media a:hover {
+    background-color: #555;
 }
 
 .client img {
-    height: auto;
     max-height: 50px;
 }
 
-.kontak{
+.kontak {
     background: url("https://wallpaperaccess.com/full/1867010.jpg") no-repeat center center;
     background-size: cover;
-    padding-bottom: 20%;
-    padding-top: 20%;
+    padding: 10% 0;
     color: #fff;
+    text-align: center;
 }
